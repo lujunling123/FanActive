@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	height: 100%;
+	background: #fafafa;
+}
+
+body {
+	margin: 0;
+	font-size: .3rem;
+}
+body{
+-webkit-tap-highlight-color:transparent;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+dl,
+dt,
+dd,
+form,
+img,
+p {
+	margin: 0;
+	padding: 0;
+	border: none;
+	list-style-type: none;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+	color: #fff;
+	text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
