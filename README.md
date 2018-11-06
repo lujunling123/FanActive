@@ -1,5 +1,4 @@
-# FanActive
-vue 完成的一个活动
+# zhongqiu
 
 > A Vue.js project
 

@@ -2,124 +2,126 @@
 	<div class="app">
 		<div class="topMain"><span class="title">已有</span><span class="soleText">1</span><span class="soleText">2</span><span class="soleText">3</span><span class="soleText">8</span>&nbsp;人获得收益翻倍</div>
     <div class="hidderMia"></div>
-    <div class="backMain">
-      <swiper :options="swiperOption" ref="mySwiper">
-        <!-- slides -->
-        <swiper-slide>
-          <div class="BackBox"><p class="blockzf"></p><p class="blockny"></p>
-            <div class="backRight"><span style="margin-right: .52rem">138****8888</span><span>2018-10-10  12:12:12</span>
-              <div class="content-Left">
-                <p>彩虹桥</p>
-                <p style="line-height: .41rem">1月</p>
-              </div>
-              <div class="content-Right">
-                <div style="float: left">
-                  <p class="fanbeiq">翻倍前</p><p class="numfanb">58.5<span style="font-size: .3rem;color: #FB4553">%</span><img style="display: inline-block;width: .43rem;margin:0 .3rem 0 .33rem" src="./../assets/images/shangsheng.png"/></p>
+    <div class="backMain_box">
+      <div class="backMain">
+        <swiper :options="swiperOption" ref="mySwiper">
+          <!-- slides -->
+          <swiper-slide>
+            <div class="BackBox"><p class="blockzf"></p><p class="blockny"></p>
+              <div class="backRight"><span style="margin-right: .52rem">138****8888</span><span>2018-10-10  12:12:12</span>
+                <div class="content-Left">
+                  <p>彩虹桥</p>
+                  <p style="line-height: .41rem">1月</p>
                 </div>
-                <div>
-                  <p class="fanbeiq">翻倍后</p>
-                  <p class="numfanb">57.2<span style="font-size: .3rem;color:#FB4553;">%</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="BackBox"><p class="blockzf"></p><p class="blockny"></p>
-            <div class="backRight"><span style="margin-right: .52rem">138****8888</span><span>2018-10-10  12:12:12</span>
-              <div class="content-Left">
-                <p>彩虹桥</p>
-                <p style="line-height: .41rem">2月</p>
-              </div>
-              <div class="content-Right">
-                <div style="float: left">
-                  <p class="fanbeiq">翻倍前</p><p class="numfanb">5.5<span style="font-size: .3rem;color: #FB4553">%</span><img style="display: inline-block;width: .43rem;margin:0 .3rem 0 .33rem" src="./../assets/images/shangsheng.png"/></p>
-                </div>
-                <div>
-                  <p class="fanbeiq">翻倍后</p>
-                  <p class="numfanb">7.2<span style="font-size: .3rem;color:#FB4553;">%</span></p>
+                <div class="content-Right">
+                  <div style="float: left">
+                    <p class="fanbeiq">翻倍前</p><p class="numfanb">58.5<span style="font-size: .3rem;color: #FB4553">%</span><img style="display: inline-block;width: .43rem;margin:0 .3rem 0 .33rem" src="./../assets/images/shangsheng.png"/></p>
+                  </div>
+                  <div>
+                    <p class="fanbeiq">翻倍后</p>
+                    <p class="numfanb">57.2<span style="font-size: .3rem;color:#FB4553;">%</span></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="BackBox"><p class="blockzf"></p><p class="blockny"></p>
-            <div class="backRight"><span style="margin-right: .52rem">138****8888</span><span>2018-10-10  12:12:12</span>
-              <div class="content-Left">
-                <p>彩虹桥</p>
-                <p style="line-height: .41rem">3月</p>
-              </div>
-              <div class="content-Right">
-                <div style="float: left">
-                  <p class="fanbeiq">翻倍前</p><p class="numfanb">5.5<span style="font-size: .3rem;color: #FB4553">%</span><img style="display: inline-block;width: .43rem;margin:0 .3rem 0 .33rem" src="./../assets/images/shangsheng.png"/></p>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="BackBox"><p class="blockzf"></p><p class="blockny"></p>
+              <div class="backRight"><span style="margin-right: .52rem">138****8888</span><span>2018-10-10  12:12:12</span>
+                <div class="content-Left">
+                  <p>彩虹桥</p>
+                  <p style="line-height: .41rem">2月</p>
                 </div>
-                <div>
-                  <p class="fanbeiq">翻倍后</p>
-                  <p class="numfanb">57<span style="font-size: .3rem;color:#FB4553;">%</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="BackBox"><p class="blockzf"></p><p class="blockny"></p>
-            <div class="backRight"><span style="margin-right: .52rem">138****8888</span><span>2018-10-10  12:12:12</span>
-              <div class="content-Left">
-                <p>彩虹桥</p>
-                <p style="line-height: .41rem">4月</p>
-              </div>
-              <div class="content-Right">
-                <div style="float: left">
-                  <p class="fanbeiq">翻倍前</p><p class="numfanb">58<span style="font-size: .3rem;color: #FB4553">%</span><img style="display: inline-block;width: .43rem;margin:0 .3rem 0 .33rem" src="./../assets/images/shangsheng.png"/></p>
-                </div>
-                <div>
-                  <p class="fanbeiq">翻倍后</p>
-                  <p class="numfanb">5.2<span style="font-size: .3rem;color:#FB4553;">%</span></p>
+                <div class="content-Right">
+                  <div style="float: left">
+                    <p class="fanbeiq">翻倍前</p><p class="numfanb">58.5<span style="font-size: .3rem;color: #FB4553">%</span><img style="display: inline-block;width: .43rem;margin:0 .3rem 0 .33rem" src="./../assets/images/shangsheng.png"/></p>
+                  </div>
+                  <div>
+                    <p class="fanbeiq">翻倍后</p>
+                    <p class="numfanb">57.2<span style="font-size: .3rem;color:#FB4553;">%</span></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="BackBox"><p class="blockzf"></p><p class="blockny"></p>
-            <div class="backRight"><span style="margin-right: .52rem">138****8888</span><span>2018-10-10  12:12:12</span>
-              <div class="content-Left">
-                <p>彩虹桥</p>
-                <p style="line-height: .41rem">11月</p>
-              </div>
-              <div class="content-Right">
-                <div style="float: left">
-                  <p class="fanbeiq">翻倍前</p><p class="numfanb">5.5<span style="font-size: .3rem;color: #FB4553">%</span><img style="display: inline-block;width: .43rem;margin:0 .3rem 0 .33rem" src="./../assets/images/shangsheng.png"/></p>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="BackBox"><p class="blockzf"></p><p class="blockny"></p>
+              <div class="backRight"><span style="margin-right: .52rem">138****8888</span><span>2018-10-10  12:12:12</span>
+                <div class="content-Left">
+                  <p>彩虹桥</p>
+                  <p style="line-height: .41rem">3月</p>
                 </div>
-                <div>
-                  <p class="fanbeiq">翻倍后</p>
-                  <p class="numfanb">5<span style="font-size: .3rem;color:#FB4553;">%</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="BackBox"><p class="blockzf"></p><p class="blockny"></p>
-            <div class="backRight"><span style="margin-right: .52rem">138****8888</span><span>2018-10-10  12:12:12</span>
-              <div class="content-Left">
-                <p>彩虹桥</p>
-                <p style="line-height: .41rem">12月</p>
-              </div>
-              <div class="content-Right">
-                <div style="float: left">
-                  <p class="fanbeiq">翻倍前</p><p class="numfanb">58.5<span style="font-size: .3rem;color: #FB4553">%</span><img style="display: inline-block;width: .43rem;margin:0 .3rem 0 .33rem" src="./../assets/images/shangsheng.png"/></p>
-                </div>
-                <div>
-                  <p class="fanbeiq">翻倍后</p>
-                  <p class="numfanb">57.2<span style="font-size: .3rem;color:#FB4553;">%</span></p>
+                <div class="content-Right">
+                  <div style="float: left">
+                    <p class="fanbeiq">翻倍前</p><p class="numfanb">58.5<span style="font-size: .3rem;color: #FB4553">%</span><img style="display: inline-block;width: .43rem;margin:0 .3rem 0 .33rem" src="./../assets/images/shangsheng.png"/></p>
+                  </div>
+                  <div>
+                    <p class="fanbeiq">翻倍后</p>
+                    <p class="numfanb">57.2<span style="font-size: .3rem;color:#FB4553;">%</span></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </swiper-slide>
-      </swiper>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="BackBox"><p class="blockzf"></p><p class="blockny"></p>
+              <div class="backRight"><span style="margin-right: .52rem">138****8888</span><span>2018-10-10  12:12:12</span>
+                <div class="content-Left">
+                  <p>彩虹桥</p>
+                  <p style="line-height: .41rem">4月</p>
+                </div>
+                <div class="content-Right">
+                  <div style="float: left">
+                    <p class="fanbeiq">翻倍前</p><p class="numfanb">58.5<span style="font-size: .3rem;color: #FB4553">%</span><img style="display: inline-block;width: .43rem;margin:0 .3rem 0 .33rem" src="./../assets/images/shangsheng.png"/></p>
+                  </div>
+                  <div>
+                    <p class="fanbeiq">翻倍后</p>
+                    <p class="numfanb">57.2<span style="font-size: .3rem;color:#FB4553;">%</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="BackBox"><p class="blockzf"></p><p class="blockny"></p>
+              <div class="backRight"><span style="margin-right: .52rem">138****8888</span><span>2018-10-10  12:12:12</span>
+                <div class="content-Left">
+                  <p>彩虹桥</p>
+                  <p style="line-height: .41rem">5月</p>
+                </div>
+                <div class="content-Right">
+                  <div style="float: left">
+                    <p class="fanbeiq">翻倍前</p><p class="numfanb">58.5<span style="font-size: .3rem;color: #FB4553">%</span><img style="display: inline-block;width: .43rem;margin:0 .3rem 0 .33rem" src="./../assets/images/shangsheng.png"/></p>
+                  </div>
+                  <div>
+                    <p class="fanbeiq">翻倍后</p>
+                    <p class="numfanb">57.2<span style="font-size: .3rem;color:#FB4553;">%</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="BackBox"><p class="blockzf"></p><p class="blockny"></p>
+              <div class="backRight"><span style="margin-right: .52rem">138****8888</span><span>2018-10-10  12:12:12</span>
+                <div class="content-Left">
+                  <p>彩虹桥</p>
+                  <p style="line-height: .41rem">6月</p>
+                </div>
+                <div class="content-Right">
+                  <div style="float: left">
+                    <p class="fanbeiq">翻倍前</p><p class="numfanb">58.5<span style="font-size: .3rem;color: #FB4553">%</span><img style="display: inline-block;width: .43rem;margin:0 .3rem 0 .33rem" src="./../assets/images/shangsheng.png"/></p>
+                  </div>
+                  <div>
+                    <p class="fanbeiq">翻倍后</p>
+                    <p class="numfanb">57.2<span style="font-size: .3rem;color:#FB4553;">%</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
+        </swiper>
+      </div>
     </div>
     <div class="bottomMain">
       <span class="bottomTitle">- 收益翻倍专场 -</span>
@@ -181,6 +183,8 @@
     data(){
       return {
         swiperOption: {
+          height: 600,
+          slidesPerView : 5,
           preventLinksPropagation : false,
           //循环
           loop:true,
@@ -298,22 +302,27 @@
     position: absolute;
     margin: 0 auto;
     width: 100%;
-    height: 3.02rem;
+    height: 12.96rem;
     z-index: 5;
+  }
+  .backMain_box{
+    margin: 0 auto;
+    width: 6.90rem;
+    background: #ffffff;
+    border-radius: .2rem;
+    padding: 0.52rem 0;
+    box-shadow:0rem .04rem .25rem .02rem rgba(209,55,54,1);
   }
   .backMain{
     margin: 0 auto;
-    padding: 0.52rem 0;
     width: 6.90rem;
-    height: 3.02rem;
+    height: 11.74rem;
     background: #ffffff;
-    border-radius: .2rem;
     overflow: hidden;
-    box-shadow:0rem .04rem .25rem .02rem rgba(209,55,54,1);
   }
   .BackBox{
     position: relative;
-    height: 2.15rem;
+    height: 2.4rem;
     margin: 0 .40rem;
     border-left: .01rem dashed rgba(239,75,67,1) ;
   }
